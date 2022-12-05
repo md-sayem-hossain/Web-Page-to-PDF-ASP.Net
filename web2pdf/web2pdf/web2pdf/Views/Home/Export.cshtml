@@ -1,0 +1,63 @@
+﻿@{ }
+<style>
+    nav, footer {
+        display: none !important;
+    } 
+    .box {
+        background-color: green;
+        width: 300px;
+        padding: 50px;
+        text-align: center;
+        margin: auto;
+    } 
+    body, embed, html {
+        height: 100% !important;
+        max-height: 100% !important;
+        width: 100% !important;
+        background: #ffe5e5 !important;
+    } 
+    .export {
+        padding: 1in;
+    }
+</style>
+<div id="export">
+    <div class="export">
+
+        @*keep everything inside this div*@ 
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+        <div>
+            <h3 style="text-align: center; font-weight:bold">This is a page heading</h3>
+        </div>
+        <div class="box"></div>
+        <div class="bootstrap-table">
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
